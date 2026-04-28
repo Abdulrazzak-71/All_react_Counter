@@ -12,6 +12,7 @@ const Counter = ({ themeDark }) => {
     const HandleCounterDEC = () => {
         if (Count <= 0) {
             setCount(0)
+            alert("Cant decrement below zero")
         } else {
             setCount(Count - 1)
         }

@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Moon, Sun } from "lucide-react";
 import Counter from "./components/Counter/Counter";
-// import TodoIndex from "./components/TodoApplication/TodoIndex";
 
 function App() {
   const [themeDark, setThemeDark] = useState(false)
@@ -30,7 +29,6 @@ function App() {
       </div>
       <div className=" relative top-10">
         <Counter themeDark={themeDark} />
-        {/* <TodoIndex themeDark={themeDark} /> */}
       </div>
     </div>
   );
