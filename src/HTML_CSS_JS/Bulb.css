@@ -1,0 +1,104 @@
+body {
+   background: #2d2d2d;
+}
+.box {
+   width: 150px;
+   margin: 0 auto;
+   position: relative;
+}
+.wire {
+   width: 6px;
+   height: 250px;
+   margin: 0 auto;
+   background: #7b7b7b;
+}
+
+.blub {
+   position: relative;
+}
+.holder {
+   width: 50px;
+   height: 30px;
+   background: #7b7b7b;
+   margin: 0 auto 5px;
+}
+.glass {
+   position: relative;
+   height: 100px;
+   .glass-inner1 {
+      background: #f0e5be;
+      width: 50px;
+      margin: 0 auto;
+      height: 20px;
+      border-radius: 4px 4px 0 0;
+   }
+   .glass-inner2 {
+      background: #f0e5be;
+      width: 100px;
+      height: 100px;
+      left: 0;
+      right: 0;
+      top: 10px;
+      margin: 0 auto;
+      position: absolute;
+      border-radius: 100%;
+   }
+}
+.glassinner {
+   position: absolute;
+   bottom: 40px;
+   left: 0;
+   right: 0;
+}
+.tungsten_filament {
+   position: relative;
+   .leftTungsten_filament {
+      width: 25px;
+      height: 3px;
+      background: #c7c397;
+      margin: 0 auto;
+      position: relative;
+      bottom: -4px;
+      right: 12px;
+      transform: rotate(7deg);
+   }
+   .rightTungsten_filament {
+      width: 25px;
+      height: 3px;
+      background: #c7c397;
+      margin: 0 auto;
+      position: relative;
+      bottom: -1px;
+      left: 12px;
+      transform: rotate(-7deg);
+   }
+}
+.leftSupportWire {
+   width: 3px;
+   height: 50px;
+   left: 55px;
+   bottom: 0;
+   background: #c7c397;
+   position: absolute;
+   transform: rotate(15deg);
+}
+.rightSupportWire {
+   width: 3px;
+   right: 55px;
+   height: 50px;
+   background: #c7c397;
+   position: absolute;
+   bottom: 0;
+   transform: rotate(-15deg);
+}
+.blublight {
+   box-shadow: 0px 0px 120px #f0e5be;
+   position: absolute;
+   bottom: -11px;
+   width: 75px;
+   height: 100px;
+   border-radius: 230px;
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+}
